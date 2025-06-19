@@ -11,7 +11,7 @@ const suggestions = document.querySelectorAll(".suggestion-list .suggestion");
 const deleteChatButton = document.querySelector("#delete-chat-button");
 let userMessage = null;
 
-const API_KEY = APIKEY;
+const API_KEY = "APIKEY";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${API_KEY}`;
 
 let latestApiResponseText = "";
